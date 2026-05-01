@@ -457,6 +457,10 @@ h1,h2,h3,h4 { font-family: var(--font-display); font-weight: 700; line-height: 1
 .creator-social { display: flex; gap: 1rem; flex-wrap: wrap; margin-top: 1rem; }
 .creator-social a { color: var(--saffron); font-weight: 600; font-size: 0.9rem; }
 
+/* Two-founder layout */
+.founders-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; }
+@media (max-width: 860px) { .founders-grid { grid-template-columns: 1fr; } }
+
 .why-timeline { max-width: 700px; margin: 0 auto; display: flex; flex-direction: column; gap: 0; }
 .why-item { display: flex; gap: 1.5rem; padding-bottom: 2.5rem; position: relative; }
 .why-item::before { content:''; position:absolute; left:32px; top:48px; bottom:0; width:2px; background: var(--border); }
