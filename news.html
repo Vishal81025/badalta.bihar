@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="hi" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>News – badalta.bihar</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&family=Noto+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <div class="ticker-wrap">
+    <span class="ticker-label">🔴 LIVE</span>
+    <div class="ticker-track">
+      <span class="ticker-content">बिहार में बनेगी पहली बुलेट ट्रेन लाइन &nbsp;•&nbsp; पटना को मिला स्मार्ट सिटी अवार्ड &nbsp;•&nbsp; IIT पटना के छात्रों ने बनाया AI-based irrigation system &nbsp;•&nbsp;</span>
+      <span class="ticker-content" aria-hidden="true">बिहार में बनेगी पहली बुलेट ट्रेन लाइन &nbsp;•&nbsp; पटना को मिला स्मार्ट सिटी अवार्ड &nbsp;•&nbsp; IIT पटना के छात्रों ने बनाया AI-based irrigation system &nbsp;•&nbsp;</span>
+    </div>
+  </div>
+
+  <nav class="navbar" id="navbar">
+    <div class="nav-inner">
+      <a href="index.html" class="logo"><span class="logo-dot">badalta</span><span class="logo-main">.bihar</span><small class="tagline-nav">Badlav Ki Awaaz</small></a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="news.html" class="active">News</a></li>
+        <li><a href="reels.html">Reels</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="nav-actions">
+        <button class="theme-toggle" id="themeToggle">🌙</button>
+        <button class="hamburger" id="hamburger"><span></span><span></span><span></span></button>
+      </div>
+    </div>
+  </nav>
+
+  <section class="page-hero">
+    <div class="blob blob-1"></div>
+    <div class="container">
+      <div class="section-badge">Latest Updates</div>
+      <h1 class="page-hero-title">Bihar <span class="accent">News</span></h1>
+      <p class="page-hero-sub">Asli khabrein, asli Bihar</p>
+    </div>
+  </section>
+
+  <!-- SEARCH + FILTERS -->
+  <section class="news-controls section-gap" style="padding-bottom:0">
+    <div class="container">
+      <div class="news-toolbar">
+        <div class="search-wrap">
+          <span class="search-icon">🔍</span>
+          <input type="text" id="searchInput" class="search-input" placeholder="Khabar dhundho..." />
+        </div>
+        <div class="filter-tabs" id="filterTabs">
+          <button class="filter-btn active" data-cat="all">All</button>
+          <button class="filter-btn" data-cat="politics">Politics</button>
+          <button class="filter-btn" data-cat="education">Education</button>
+          <button class="filter-btn" data-cat="culture">Culture</button>
+          <button class="filter-btn" data-cat="development">Development</button>
+          <button class="filter-btn" data-cat="local">Local Stories</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- NEWS LIST -->
+  <section class="section-gap">
+    <div class="container">
+      <div class="news-list-grid" id="newsGrid">
+
+        <article class="news-list-card" data-cat="development">
+          <div class="news-list-img">
+            <img src="https://images.unsplash.com/photo-1587474260584-136574528ed5?w=600&q=80" alt="Smart City" loading="lazy" />
+            <span class="news-tag tag-development">Development</span>
+          </div>
+          <div class="news-list-body">
+            <time>April 18, 2026</time>
+            <h3>पटना Smart City बनने की राह पर – 500 करोड़ की योजना मंजूर</h3>
+            <p>केंद्र सरकार ने पटना के लिए एक विशेष स्मार्ट सिटी मिशन को हरी झंडी दी है, जिसमें AI-based traffic management और digital public services शामिल हैं।</p>
+            <div class="news-list-footer">
+              <a href="#" class="btn btn-ghost btn-sm">Read More →</a>
+              <div class="share-btns">
+                <button class="share-btn" title="Share on Instagram">📱</button>
+                <button class="share-btn" title="Share on Facebook">📘</button>
+                <button class="share-btn" title="Copy Link">🔗</button>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="news-list-card" data-cat="education">
+          <div class="news-list-img">
+            <img src="https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=600&q=80" alt="Education" loading="lazy" />
+            <span class="news-tag tag-education">Education</span>
+          </div>
+          <div class="news-list-body">
+            <time>April 16, 2026</time>
+            <h3>बिहार की बेटी Priya Singh ने UPSC में 3rd Rank हासिल किया</h3>
+            <p>सीतामढ़ी की रहने वाली Priya ने बिना coaching के UPSC crack किया। Government school aur self-study ke dam par unhone ye muqam haasil kiya.</p>
+            <div class="news-list-footer">
+              <a href="#" class="btn btn-ghost btn-sm">Read More →</a>
+              <div class="share-btns">
+                <button class="share-btn">📱</button>
+                <button class="share-btn">📘</button>
+                <button class="share-btn">🔗</button>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="news-list-card" data-cat="culture">
+          <div class="news-list-img">
+            <img src="https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=600&q=80" alt="Culture" loading="lazy" />
+            <span class="news-tag tag-culture">Culture</span>
+          </div>
+          <div class="news-list-body">
+            <time>April 14, 2026</time>
+            <h3>Chhath Puja को UNESCO की World Heritage List में मिली जगह</h3>
+            <p>बिहार की सबसे बड़ी आस्था Chhath Puja अब officially दुनिया की धरोहर बन गई है। इस फैसले से पूरे बिहार में उत्सव का माहौल है।</p>
+            <div class="news-list-footer">
+              <a href="#" class="btn btn-ghost btn-sm">Read More →</a>
+              <div class="share-btns">
+                <button class="share-btn">📱</button>
+                <button class="share-btn">📘</button>
+                <button class="share-btn">🔗</button>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="news-list-card" data-cat="education">
+          <div class="news-list-img">
+            <img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=600&q=80" alt="IIT Tech" loading="lazy" />
+            <span class="news-tag tag-education">Tech</span>
+          </div>
+          <div class="news-list-body">
+            <time>April 12, 2026</time>
+            <h3>IIT Patna के Students ने बनाया Award-Winning AI Irrigation System</h3>
+            <p>पानी की बर्बादी रोकने के लिए IIT Patna के students ने एक groundbreaking solution बनाया जो अब 5 states में trial mode में है।</p>
+            <div class="news-list-footer">
+              <a href="#" class="btn btn-ghost btn-sm">Read More →</a>
+              <div class="share-btns">
+                <button class="share-btn">📱</button>
+                <button class="share-btn">📘</button>
+                <button class="share-btn">🔗</button>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="news-list-card" data-cat="politics">
+          <div class="news-list-img">
+            <img src="https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=600&q=80" alt="Politics" loading="lazy" />
+            <span class="news-tag tag-politics">Politics</span>
+          </div>
+          <div class="news-list-body">
+            <time>April 10, 2026</time>
+            <h3>बिहार में नई Industrial Policy – 10 लाख jobs का वादा</h3>
+            <p>State government ने ek nayi industrial policy announce ki hai jiske tahat 2030 tak 10 lakh rozgar create karne ka lakshya rakha gaya hai.</p>
+            <div class="news-list-footer">
+              <a href="#" class="btn btn-ghost btn-sm">Read More →</a>
+              <div class="share-btns">
+                <button class="share-btn">📱</button>
+                <button class="share-btn">📘</button>
+                <button class="share-btn">🔗</button>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="news-list-card" data-cat="local">
+          <div class="news-list-img">
+            <img src="https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?w=600&q=80" alt="Local" loading="lazy" />
+            <span class="news-tag tag-local">Local Stories</span>
+          </div>
+          <div class="news-list-body">
+            <time>April 8, 2026</time>
+            <h3>Darbhanga के 70 साल के Ramji Baba ने खुद बनाई अपने गाँव की सड़क</h3>
+            <p>Sirf ek sapna tha – ki unke gaon ki kacchi sadak pakki ho jaye. Unhone apni savings se materials kharida aur khud kaam shuru kar diya. Aaj poori village unhe "Road Baba" kehti hai.</p>
+            <div class="news-list-footer">
+              <a href="#" class="btn btn-ghost btn-sm">Read More →</a>
+              <div class="share-btns">
+                <button class="share-btn">📱</button>
+                <button class="share-btn">📘</button>
+                <button class="share-btn">🔗</button>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="news-list-card" data-cat="development">
+          <div class="news-list-img">
+            <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=80" alt="Infrastructure" loading="lazy" />
+            <span class="news-tag tag-development">Development</span>
+          </div>
+          <div class="news-list-body">
+            <time>April 6, 2026</time>
+            <h3>गया में बना Bihar का पहला International Airport Terminal</h3>
+            <p>Gaya ka naya international terminal officially open ho gaya hai jisme 50 lakh passengers annually handle karne ki capacity hai. Ye Bihar ke tourism aur economy ke liye game-changer hai.</p>
+            <div class="news-list-footer">
+              <a href="#" class="btn btn-ghost btn-sm">Read More →</a>
+              <div class="share-btns">
+                <button class="share-btn">📱</button>
+                <button class="share-btn">📘</button>
+                <button class="share-btn">🔗</button>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="news-list-card" data-cat="culture">
+          <div class="news-list-img">
+            <img src="https://images.unsplash.com/photo-1542744094-24638eff58bb?w=600&q=80" alt="Food Culture" loading="lazy" />
+            <span class="news-tag tag-culture">Culture</span>
+          </div>
+          <div class="news-list-body">
+            <time>April 4, 2026</time>
+            <h3>Litti Chokha बना दुनिया का 5th Most Searched Street Food</h3>
+            <p>Google Trends ke mutabik Litti Chokha internationally trending ho raha hai. London, New York aur Dubai mein Bihari restaurants ki maang tezi se badh rahi hai.</p>
+            <div class="news-list-footer">
+              <a href="#" class="btn btn-ghost btn-sm">Read More →</a>
+              <div class="share-btns">
+                <button class="share-btn">📱</button>
+                <button class="share-btn">📘</button>
+                <button class="share-btn">🔗</button>
+              </div>
+            </div>
+          </div>
+        </article>
+
+      </div>
+
+      <div class="no-results" id="noResults" style="display:none">
+        <p>😕 Koi khabar nahi mili. Dusri category try karein.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="newsletter-section section-gap">
+    <div class="container">
+      <div class="newsletter-box">
+        <div class="nl-text">
+          <h2>Bihar ki khabar <span class="accent">seedhi inbox mein</span></h2>
+          <p>Latest updates, exclusive stories aur viral reels – sab kuch free mein!</p>
+        </div>
+        <form class="nl-form" id="nlForm">
+          <input type="email" placeholder="apna email daalo..." required />
+          <button type="submit" class="btn btn-primary">Subscribe 🚀</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="logo logo-footer"><span class="logo-dot">badalta</span><span class="logo-main">.bihar</span></a>
+          <p class="footer-tagline">Badlav Ki Awaaz</p>
+          <div class="social-links"><a href="#" class="social-btn">📷</a><a href="#" class="social-btn">📘</a><a href="#" class="social-btn">▶</a></div>
+        </div>
+        <div class="footer-col"><h4>Quick Links</h4><ul><li><a href="index.html">Home</a></li><li><a href="news.html">News</a></li><li><a href="reels.html">Reels</a></li><li><a href="about.html">About</a></li><li><a href="contact.html">Contact</a></li></ul></div>
+        <div class="footer-col"><h4>Categories</h4><ul><li><a href="#">Politics</a></li><li><a href="#">Education</a></li><li><a href="#">Culture</a></li><li><a href="#">Development</a></li></ul></div>
+        <div class="footer-col"><h4>Contact</h4><ul><li>📧 hello@badaltabihar.in</li><li>📱 @badalta.bihar</li></ul></div>
+      </div>
+      <div class="footer-bottom"><p>© 2026 badalta.bihar 🧡</p><p>Made with ❤️ for Bihar</p></div>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

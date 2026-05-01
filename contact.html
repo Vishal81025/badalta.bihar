@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="hi" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact – badalta.bihar</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&family=Noto+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <div class="ticker-wrap"><span class="ticker-label">🔴 LIVE</span><div class="ticker-track"><span class="ticker-content">बिहार में बनेगी पहली बुलेट ट्रेन लाइन &nbsp;•&nbsp; पटना को मिला स्मार्ट सिटी अवार्ड &nbsp;•&nbsp;</span><span class="ticker-content" aria-hidden="true">बिहार में बनेगी पहली बुलेट ट्रेन लाइन &nbsp;•&nbsp; पटना को मिला स्मार्ट सिटी अवार्ड &nbsp;•&nbsp;</span></div></div>
+  <nav class="navbar" id="navbar">
+    <div class="nav-inner">
+      <a href="index.html" class="logo"><span class="logo-dot">badalta</span><span class="logo-main">.bihar</span><small class="tagline-nav">Badlav Ki Awaaz</small></a>
+      <ul class="nav-links" id="navLinks"><li><a href="index.html">Home</a></li><li><a href="news.html">News</a></li><li><a href="reels.html">Reels</a></li><li><a href="about.html">About</a></li><li><a href="contact.html" class="active">Contact</a></li></ul>
+      <div class="nav-actions"><button class="theme-toggle" id="themeToggle">🌙</button><button class="hamburger" id="hamburger"><span></span><span></span><span></span></button></div>
+    </div>
+  </nav>
+
+  <section class="page-hero">
+    <div class="blob blob-1"></div>
+    <div class="container">
+      <div class="section-badge">Baat Karein</div>
+      <h1 class="page-hero-title">Contact <span class="accent">Us</span></h1>
+      <p class="page-hero-sub">Hum aapki baat sunna chahte hain</p>
+    </div>
+  </section>
+
+  <section class="section-gap">
+    <div class="container">
+      <div class="contact-grid">
+
+        <!-- FORM -->
+        <div class="contact-form-wrap">
+          <h2 class="contact-form-title">Message <span class="accent">Bhejein</span></h2>
+          <p>Koi story tip hai? Feedback dena hai? Ya bas baat karni hai Bihar ke baare mein? Likhein humein!</p>
+          <form class="contact-form" id="contactForm">
+            <div class="form-group">
+              <label for="fname">Aapka Naam *</label>
+              <input type="text" id="fname" placeholder="Jaise: Rahul Kumar" required />
+            </div>
+            <div class="form-group">
+              <label for="femail">Email Address *</label>
+              <input type="email" id="femail" placeholder="rahul@example.com" required />
+            </div>
+            <div class="form-group">
+              <label for="fsubject">Subject</label>
+              <input type="text" id="fsubject" placeholder="Kya baat karni hai?" />
+            </div>
+            <div class="form-group">
+              <label for="fmessage">Aapka Message *</label>
+              <textarea id="fmessage" rows="6" placeholder="Yahan likhein... Bihar ke baare mein apni baat kehne ka mauka mat chhodein!" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-full">Message Bhejein 📩</button>
+            <div class="form-success" id="formSuccess">✅ Shukriya! Hum jald hi jawab denge.</div>
+          </form>
+        </div>
+
+        <!-- INFO -->
+        <div class="contact-info-wrap">
+          <div class="contact-info-card">
+            <h3>📧 Email Karein</h3>
+            <p>hello@badaltabihar.in</p>
+            <p>collaborations@badaltabihar.in</p>
+          </div>
+          <div class="contact-info-card">
+            <h3>📱 Social Media</h3>
+            <div class="contact-socials">
+              <a href="#" class="contact-social-link">
+                <span class="cs-icon">📸</span>
+                <div>
+                  <strong>Instagram</strong>
+                  <span>@badalta.bihar</span>
+                </div>
+              </a>
+              <a href="#" class="contact-social-link">
+                <span class="cs-icon">📘</span>
+                <div>
+                  <strong>Facebook</strong>
+                  <span>/badaltabihar</span>
+                </div>
+              </a>
+              <a href="#" class="contact-social-link">
+                <span class="cs-icon">▶</span>
+                <div>
+                  <strong>YouTube</strong>
+                  <span>@badaltabihar</span>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="contact-info-card">
+            <h3>🕐 Response Time</h3>
+            <p>Hum aam taur par <strong>24-48 hours</strong> mein reply karte hain.</p>
+          </div>
+          <div class="contact-info-card contact-info-cta">
+            <h3>Story tip dena chahte ho?</h3>
+            <p>Agar aapke paas Bihar ka koi inspiring story hai – bata do! Hum use world ke saamne rakhenge.</p>
+            <a href="mailto:stories@badaltabihar.in" class="btn btn-ghost" style="margin-top:1rem">Story Share Karein →</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="newsletter-section section-gap">
+    <div class="container">
+      <div class="newsletter-box">
+        <div class="nl-text">
+          <h2>Bihar ki khabar <span class="accent">seedhi inbox mein</span></h2>
+          <p>Latest updates, exclusive stories aur viral reels – sab kuch free mein!</p>
+        </div>
+        <form class="nl-form" id="nlForm">
+          <input type="email" placeholder="apna email daalo..." required />
+          <button type="submit" class="btn btn-primary">Subscribe 🚀</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand"><a href="index.html" class="logo logo-footer"><span class="logo-dot">badalta</span><span class="logo-main">.bihar</span></a><p class="footer-tagline">Badlav Ki Awaaz</p><div class="social-links"><a href="#" class="social-btn">📷</a><a href="#" class="social-btn">📘</a><a href="#" class="social-btn">▶</a></div></div>
+        <div class="footer-col"><h4>Quick Links</h4><ul><li><a href="index.html">Home</a></li><li><a href="news.html">News</a></li><li><a href="reels.html">Reels</a></li><li><a href="about.html">About</a></li><li><a href="contact.html">Contact</a></li></ul></div>
+        <div class="footer-col"><h4>Categories</h4><ul><li><a href="#">Politics</a></li><li><a href="#">Education</a></li><li><a href="#">Culture</a></li><li><a href="#">Development</a></li></ul></div>
+        <div class="footer-col"><h4>Contact</h4><ul><li>📧 hello@badaltabihar.in</li><li>📱 @badalta.bihar</li></ul></div>
+      </div>
+      <div class="footer-bottom"><p>© 2026 badalta.bihar 🧡</p><p>Made with ❤️ for Bihar</p></div>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
